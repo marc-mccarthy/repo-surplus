@@ -1,0 +1,3 @@
+github_owner = "GITHUB_USERNAME"      # username on github
+github_token = "GITHUB_TOKEN"         # personal access token
+author       = "Tommy Two Tries"
