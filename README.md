@@ -18,7 +18,7 @@ You should see the current version of Terraform installed.
 
 ### Acquiring GitHub Token
 
-Follow this guide to [creatin a personal access token (classic)](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens) on GitHub. You will also need your GitHub username.
+Follow this guide to [creating a personal access token (classic)](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens) on GitHub. You will also need your GitHub username.
 
 Store these keys in a secure location. This is your authentication for your identity on AWS!
 
