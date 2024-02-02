@@ -1,4 +1,4 @@
-# Terraform & GitHub: Creating a repository with Terraform (Repo Surplus)
+# Terraform & GitHub: Creating a Repository with Terraform (Repo Surplus)
 
 ## Prerequisites
 
@@ -20,7 +20,7 @@ You should see the current version of Terraform installed.
 
 Follow this guide to [creatin a personal access token (classic)](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens) on GitHub. You will also need your GitHub username.
 
-Store this in a secure location. This is your authentication for your identity on GitHub!
+Store these keys in a secure location. This is your authentication for your identity on AWS!
 
 ## Terraform
 
@@ -48,7 +48,7 @@ This will apply your changes to GitHub after you confirm the selection.
 
 **Go to the URL's that were outputs. They should point to the new repos you created!**
 
-4. In your Terminal, ensure you are deleting your test repos with:
+Now, in your Terminal, ensure you are deleting your test repos with:
 
 ```hcl
 terraform destroy
@@ -56,4 +56,4 @@ terraform destroy
 
 This will destroy all of your GitHub architecture that is stored in your Terraform [terraform.tfstate](./terraform.tfstate) file.
 
-> **Note**: If you created any services in AWS in the console, or anything not tracked within your [terraform.tfstate](./terraform.tfstate) file.
+> **Note**: If you created any services in GitHub, or anything not tracked within your [terraform.tfstate](./terraform.tfstate) file, these resources will not be deleted with Terraform.
